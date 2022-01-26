@@ -1,0 +1,2117 @@
+@prefix ns1: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#accessControl> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#activeHarmonicFilter> a rdfs:Class ;
+    rdfs:comment "AHF" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricFlowStorageDevice> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#actuator> a rdfs:Class ;
+    rdfs:comment "ACT" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcActuator> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#ahu> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#airConditioningUnit> a rdfs:Class ;
+    rdfs:comment "ACU" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryEquipment> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#airTerminalBox> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#antenna> a rdfs:Class ;
+    rdfs:comment "ANT" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCommunicationsAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#architecture> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#avEquipment> a rdfs:Class ;
+    rdfs:comment "AVEQ" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcAudioVisualAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#battery> a rdfs:Class ;
+    rdfs:comment "BATT" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricFlowStorageDevice> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#beverageMachine> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#burner> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#camera> a rdfs:Class ;
+    rdfs:comment "CAM" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcAudioVisualAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#chiller> a rdfs:Class ;
+    rdfs:comment "CH" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcChiller> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cleaning> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#coil> a rdfs:Class ;
+    rdfs:comment "COIL" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCoil> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#communicationAppliance> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#communicationGateway> a rdfs:Class ;
+    rdfs:comment "CGW" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCommunicationsAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#compressor> a rdfs:Class ;
+    rdfs:comment "CMP" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCompressor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#condensingUnit> a rdfs:Class ;
+    rdfs:comment "CDU" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCondenser> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#controller> a rdfs:Class ;
+    rdfs:comment "CNTRL" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcController> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#damper> a rdfs:Class ;
+    rdfs:comment "DMP" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcDamper> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#dataProcessingUnit/Computer> a rdfs:Class ;
+    rdfs:comment "DPU" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCommunicationsAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#dehumidifier> a rdfs:Class ;
+    rdfs:comment "DHUM" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryEquipment> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#dispenser> a rdfs:Class ;
+    rdfs:comment "DISP" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#door> a rdfs:Class ;
+    rdfs:comment "DR" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcDoor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#drinkingFountain/BottleFiller> a rdfs:Class ;
+    rdfs:comment "DF" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSanitaryTerminal> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#ductSilencer> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#dxSystem> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricAppliance> a rdfs:Class ;
+    rdfs:comment "EAPPL" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricDistribution> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricProtectiveDevice> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricSwitch> a rdfs:Class ;
+    rdfs:comment "ELSW" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricDistribution> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSwitchingDevice> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electrochromicGlass> a rdfs:Class ;
+    rdfs:comment "ECG" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcWindow> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electronicKeyCabinet> a rdfs:Class ;
+    rdfs:comment "EKC" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFurniture> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#employeeTimeclockWithFingerprintScanner> a rdfs:Class ;
+    rdfs:comment "ETCFP" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#evaporator> a rdfs:Class ;
+    rdfs:comment "EEW",
+        "EVP" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcEvaporator>,
+        <http://ifcowl.openbimstandards.org/IFC4#IfcSanitaryTerminal> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fan> a rdfs:Class ;
+    rdfs:comment "FAN" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFan> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fanCoilUnit> a rdfs:Class ;
+    rdfs:comment "FCU" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryEquipment> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#filter> a rdfs:Class ;
+    rdfs:comment "FLT" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFilter> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fireSuppression> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#foodServing> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#furniture> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#generator> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#greaseWasteInterceptor> a rdfs:Class ;
+    rdfs:comment "GI" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcInterceptor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#heatEmitter> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#heatExchanger> a rdfs:Class ;
+    rdfs:comment "HX" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcHeatExchanger> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#heatPump> a rdfs:Class ;
+    rdfs:comment "HP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#heatPump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryEquipment> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#highLevelInterface> a rdfs:Class ;
+    rdfs:comment "HLI" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcController> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#hornStrobe> a rdfs:Class ;
+    rdfs:comment "HS" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcAlarm> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#humanMachineInterface> a rdfs:Class ;
+    rdfs:comment "HMI" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCommunicationsAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#humidifier> a rdfs:Class ;
+    rdfs:comment "HUM" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcHumidifier> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#itcEquipment> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenVentilation> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#lighting> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#locationServices> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#meter> a rdfs:Class ;
+    rdfs:comment "MTR" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFlowMeter> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#motorController> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#naturalAirVentilator> a rdfs:Class ;
+    rdfs:comment "AVR" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#ifcStackTerminal> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#oilInterceptor> a rdfs:Class ;
+    rdfs:comment "OI" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcInterceptor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#outlet> a rdfs:Class ;
+    rdfs:comment "OUT" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcOutlet> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#panel> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pressurisationUnit> a rdfs:Class ;
+    rdfs:comment "PU" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryEquipment> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> a rdfs:Class ;
+    rdfs:comment "PMP" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pvAcDisconnect> a rdfs:Class ;
+    rdfs:comment "PVACDS" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSwitchingDevice> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pvDataAcquisitionSystem> a rdfs:Class ;
+    rdfs:comment "PVDAS" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcController> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pvDcCombiner> a rdfs:Class ;
+    rdfs:comment "PVDCC" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricDistributionBoard> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pvDcDisconnect> a rdfs:Class ;
+    rdfs:comment "PVDCDS" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSwitchingDevice> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pvDistributionBoard> a rdfs:Class ;
+    rdfs:comment "PVDB" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricDistributionBoard> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pvInverter> a rdfs:Class ;
+    rdfs:comment "PVI" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcTransformer> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pvMicrogridController> a rdfs:Class ;
+    rdfs:comment "PVMC" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcController> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pvModul> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pvPanel> a rdfs:Class ;
+    rdfs:comment "PVP" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSolarDevice> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pvTranformer> a rdfs:Class ;
+    rdfs:comment "PVTXMR" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcTransformer> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#radiantSurface> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#refrgeration> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#refrigeration> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sandOilInterceptor> a rdfs:Class ;
+    rdfs:comment "SOI" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcInterceptor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sandSeparator> a rdfs:Class ;
+    rdfs:comment "SSP" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcInterceptor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sanitaryTerminal> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sensor> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#shading> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#signal> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#tank> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#thermalWheel> a rdfs:Class ;
+    rdfs:comment "TW" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcAirToAirHeatRecovery> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#timeclock> a rdfs:Class ;
+    rdfs:comment "TMCLK" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricTimeControl> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#transformer> a rdfs:Class ;
+    rdfs:comment "TXMR" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcTransformer> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#transportation> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#trapPrimer> a rdfs:Class ;
+    rdfs:comment "TP" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#ups> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#userInterface> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> a rdfs:Class ;
+    rdfs:comment "VLV" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#variableFrequencyDrive> a rdfs:Class ;
+    rdfs:comment "VFD" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcMotorConnection> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#washingAppliance> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#wasteManagement> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#wasteTerminal> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#waterHeater> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#waterTreatment> a rdfs:Class .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#weatherStation> a rdfs:Class ;
+    rdfs:comment "WST" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryControlElement> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#window> a rdfs:Class ;
+    rdfs:comment "WD" ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcWindow> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#airAdmittanceValve> rdfs:comment "AAV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#airCompressor> rdfs:comment "ACP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#compressor> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#ifcCompressor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#airDryer> rdfs:comment "ADY" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#airHandlingUnit> rdfs:comment "AHU" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#ahu> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryEquipment> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#airSeparator> rdfs:comment "AS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#filter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFlowTreatmentDevice> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#airSourceHeatPump> rdfs:comment "ASHP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#heatPump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryEquipment> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#airpot> rdfs:comment "BVAP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#beverageMachine> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#alarmPanel> rdfs:comment "AP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#panel> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryControlElement> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#angleStopValve> rdfs:comment "AV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#areaDrain> rdfs:comment "AD" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#wasteTerminal> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcWasteTerminal> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#attenuator> rdfs:comment "SLCR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#ductSilencer> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcDuctSilencer> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#automaticCondensatePump> rdfs:comment "CNP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#automaticTransferSwitch> rdfs:comment "ATS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricDistribution> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcProtectiveDevice> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#auxilliaryProcessCoolingWaterPump> rdfs:comment "AXCWP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#backflowPreventerValve> rdfs:comment "BFP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#balancingValve> rdfs:comment "BLV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#ballValve> rdfs:comment "BV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#Ifcvalve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#beacon> rdfs:comment "BCN",
+        "LBCN" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#locationServices>,
+        <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#signal> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCommunicationsAppliance>,
+        <http://ifcowl.openbimstandards.org/IFC4#ifcAlarm> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#biometricReader> rdfs:comment "BIOR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#accessControl> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCommunicationsAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#blastChiller/Freezer> rdfs:comment "FRZBCF" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#refrgeration> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#blender/SmoothieMaker> rdfs:comment "KSMBL" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#blowdownValve> rdfs:comment "BDV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#boiler> rdfs:comment "BLR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#burner> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#ifcBoiler> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#boosterPump> rdfs:comment "BSP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#bowlBlender> rdfs:comment "KBBL" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#bowlCutter> rdfs:comment "KBC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#branchCircuitPanelBoard120/208V> rdfs:comment "LVCPB" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricDistribution> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricDistributionBoard> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#branchCircuitPanelBoard277/480V> rdfs:comment "HVCPB" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricDistribution> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricDistributionBoard> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#brattPan> rdfs:comment "CKBP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#breakGlassUnit> rdfs:comment "BGU" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fireSuppression> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcAlarm> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#breakTankAndBoosterSet> rdfs:comment "BTBS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#tank> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcTank> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#broth> rdfs:comment "DISPB" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#dispenser> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#butterflyValve> rdfs:comment "BFV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#bypassControlDamper> rdfs:comment "BYCD" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#damper> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcDamper> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#bypassValve> rdfs:comment "BYV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#canOpener> rdfs:comment "KCO" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#ceilingDuplex> rdfs:comment "CGDXO" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#outlet> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcOutlet> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cereal> rdfs:comment "DISPC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#dispenser> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#chaiMachine> rdfs:comment "BVC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#beverageMachine> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#chargrill> rdfs:comment "CKCGR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFlowTerminal> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#checkValve> rdfs:comment "CKV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#chemicalDosageUnit> rdfs:comment "CHDU" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#waterTreatment> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcDistributionSystem> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#chemicalStorageCabinet> rdfs:comment "CSC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#furniture> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFurniture> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#chemicalTreatmentControlPanel> rdfs:comment "CTCP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#panel> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryControlElement> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#chilledBeam> rdfs:comment "CHB" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#radiantSurface> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCooledBeam> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#chilledWaterPump> rdfs:comment "CHWP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#chilledWaterValve> rdfs:comment "CHWV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#circuitBreaker> rdfs:comment "CB" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricProtectiveDevice> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcProtectiveDevice> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#circulatingPump> rdfs:comment "CP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cleanSteamGenerator> rdfs:comment "CSG" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#generator> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricGenerator> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#co2Sensor> rdfs:comment "CDS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sensor> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSensor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#coSensor> rdfs:comment "COS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sensor> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSensor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#coffeeGrinder> rdfs:comment "BVCFMG" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#beverageMachine> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#coffeeMachine> rdfs:comment "BVCFM" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#beverageMachine> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#coffeeNitroMachine> rdfs:comment "BVCFMN" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#beverageMachine> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#coffeeUrn> rdfs:comment "BVCFMU" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#beverageMachine> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#coldPlate> rdfs:comment "FSCPL" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#foodServing> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFlowTerminal> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#coldWell> rdfs:comment "FSCWL" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#foodServing> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFlowStorageDevice> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#coldroomFreezer> rdfs:comment "CRFRZ" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#refrigeration> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#coldroomHardware/Plant> rdfs:comment "CRHW" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#refrigeration> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#coldroomRefrigerated> rdfs:comment "CRREF" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#refrigeration> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#combinationMicrowave/HighSpeedOven> rdfs:comment "CKCMWO" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#combinationOven> rdfs:comment "CKCMOV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#commercialFlightMachine> rdfs:comment "CDWFM" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#washingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#commercialKitchenMobileSoakSink> rdfs:comment "KSINKM" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#furniture> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSanitaryTerminal> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#commercialKitchenSink> rdfs:comment "KSINK" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#furniture> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSanitaryTerminal> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#commercialKitchenStorageCabinet> rdfs:comment "KSTC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#furniture> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFurniture> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#commercialKitchenStorageCabinetHeated> rdfs:comment "KSTCH" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#furniture> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFlowStorageDevice> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#commercialKitchenTable> rdfs:comment "KTBL" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#furniture> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFurniture> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#commercialKitchenTrolley/Cart> rdfs:comment "KCART" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#furniture> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFurniture> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#commercialKitchenUtlityDistributionSystem> rdfs:comment "KUDS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#furniture> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcDistributionSystem> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#commercialKitchenWallMountedGlassRack> rdfs:comment "KWMGR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#furniture> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFurniture> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#commercialKithcenUtilityChaseSystem> rdfs:comment "KUCS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#furniture> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcDistributionSystem> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#commercialPassThroughMachine> rdfs:comment "CDWPTM" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#washingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#commercialPotAndUtensilMachine> rdfs:comment "CDWPUW" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#washingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#commercialRackMachine> rdfs:comment "CDWRM" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#washingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#commercialUndercounterMachine> rdfs:comment "CDWUM" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#washingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#computerRoomAcUnit> rdfs:comment "CRAC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#airConditioningUnit> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryEquipment> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#condensateHood> rdfs:comment "KVCH" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenVentilation> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcDamper> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#condensateReceiverTank> rdfs:comment "CNR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#tank> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#ifcTank> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#condensationWaterSensor> rdfs:comment "CS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sensor> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSensor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#condenserWaterPump> rdfs:comment "CDWP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#condenserWaterValve> rdfs:comment "CDWV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#constantAirVolumeBox> rdfs:comment "CAV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#airTerminalBox> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcAirTerminalBox> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#controlPanel> rdfs:comment "CTRP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#panel> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryControlElement> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#controlValve> rdfs:comment "CV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#controlValveModulating> rdfs:comment "CVM" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#controlValveOpenClosed> rdfs:comment "CVO" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#controlledDuplex> rdfs:comment "CNDO" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#outlet> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcOutlet> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#convectionOven> rdfs:comment "CKCVOV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#conveyorSystem> rdfs:comment "CDWSCS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#washingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#coolingCoil> rdfs:comment "CC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#coil> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCoil> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#coolingTower> rdfs:comment "CT" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#chiller> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCoolingTower> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#coolingTowerFan> rdfs:comment "CTF" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fan> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFan> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#coolingTowerFiltrationUnit> rdfs:comment "CTFS",
+        "CTFU" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#filter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFilter>,
+        <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryEquipment> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#coolingTowerSandFilter> rdfs:comment "CTSFLT" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#filter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFilter> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#coolingTowerSeparator> rdfs:comment "CTSEP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#filter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFilter> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#coolingTowerSeparator/SandSeparator> rdfs:comment "CTSSEP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#filter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFilter> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#coolingTowerSeparatorPump> rdfs:comment "CTSEPP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#coolingTowerWaterTreatmentUnit> rdfs:comment "CTSU" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#waterTreatment> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryEquipment> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#crepeAndWaffleMaker> rdfs:comment "KCWM" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#criticalCoolingChiller> rdfs:comment "CCCH" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#chiller> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcChiller> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cutleryDryer> rdfs:comment "KCDY" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#dataWallOutlet> rdfs:comment "DATA" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#outlet> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcOutlet> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#deareatorTank> rdfs:comment "DEA" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#tank> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcTank> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#deck/PizzaOven> rdfs:comment "CKDOVN" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#decontaminationTank> rdfs:comment "DET" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#tank> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcTank> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#dedicatedOutsideAirSystemUnit> rdfs:comment "DOAS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#ahu> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryEquipment> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#degasserFilter> rdfs:comment "DGA" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#filter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFilter> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#desk> rdfs:comment "DESK" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#furniture> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFurniture> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#dewPointSwitch> rdfs:comment "DPSW" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#actuator> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryControlElement> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#differentialPressureControlValve> rdfs:comment "DPCV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#digitalWhiteboard> rdfs:comment "DWB" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#avEquipment> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcAudioVisualAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#dimSumSteamer> rdfs:comment "CKDSTE" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#directDigitalController> rdfs:comment "DDC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#controller> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcController> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#directExpansionCoolingUnit> rdfs:comment "DX" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#airConditioningUnit> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryEquipment> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#disconnectFuse> rdfs:comment "DSCTF" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricProtectiveDevice> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcProtectiveDevice> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#dishwasher> rdfs:comment "DW" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#displayScreen> rdfs:comment "DS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#avEquipment> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcAudioVisualAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#distributionPanel/Board> rdfs:comment "DB" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricDistribution> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricDistributionBoard> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#distributionPanel120/208V> rdfs:comment "LVDP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricDistribution> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricDistributionBoard> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#distributionPanel277/480V> rdfs:comment "HVDP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricDistribution> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricDistributionBoard> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#distributionPanelForItcEquipment> rdfs:comment "ITDP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricDistribution> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricDistributionBoard> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#domesticElectricWaterHeater> rdfs:comment "DEWH" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#waterHeater> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#domesticGasWaterHeater> rdfs:comment "DGWH" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#waterHeater> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcBoiler> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#domesticHotWaterCirculationPump> rdfs:comment "DHWP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#dosingPot> rdfs:comment "DPOT" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#waterTreatment> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcDistributionFlowElement> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#dosingPump> rdfs:comment "DP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#double20ADuplexReceptacle> rdfs:comment "DDR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#outlet> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcOutlet> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#doughDivider/Rounder> rdfs:comment "KDR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#doughPress> rdfs:comment "KDPR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#dryAirCooler> rdfs:comment "DAC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#chiller> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCondenser> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#ductHeater> rdfs:comment "DH" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#heatEmitter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSpaceHeater> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#duplexOutlets> rdfs:comment "DXO" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#outlet> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcOutlet> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#dxReversibleCoil> rdfs:comment "DXC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#coil> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCoil> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricMeter> rdfs:comment "EM" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#meter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFlowMeter> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricUnitHeater> rdfs:comment "EUH" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#heatEmitter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#ifcSpaceHeater> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricityGenerator> rdfs:comment "GEN" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#generator> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricGenerator> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electroMagneticWaterConditioner> rdfs:comment "EMWC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#waterTreatment> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFlowTreatmentDevice> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electronicPointOfSale> rdfs:comment "EPOS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electronicTrapPrimer> rdfs:comment "TPE" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#trapPrimer> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#emergencySewerTank> rdfs:comment "EST" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#tank> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcTank> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#emergencyWaterTank> rdfs:comment "EWT" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#tank> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcTank> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#energyValve> rdfs:comment "ENV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#escalator> rdfs:comment "ESC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#transportation> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcTransportElement> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#espressoMachine> rdfs:comment "BVCFME" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#beverageMachine> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#ethernetSwitch> rdfs:comment "ETS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#itcEquipment> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#ifcCommunicationsAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#evcElectricVehicleChargingDistributionPanel> rdfs:comment "EVDP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricDistribution> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricDistributionBoard> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#evcElectricVehicleChargingEquipment> rdfs:comment "EVCE" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricDistribution> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcOutlet> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#exercise/GymEquipment> rdfs:comment "GYMEQ" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#exhaustDamper> rdfs:comment "EXD" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#damper> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcDamper> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#exhaustFan> rdfs:comment "EF" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fan> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFan> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#expansionTank> rdfs:comment "ET" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#tank> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcTank> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#extraction/ExhuastGreaseHood> rdfs:comment "KVGH" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenVentilation> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcDamper> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fireAlarmControlPanel> rdfs:comment "FACP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#panel> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryControlElement> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fireDamper> rdfs:comment "FD" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#damper> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcDamper> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fireDoor> rdfs:comment "FDR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#door> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcDoor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fireHydrantPump> rdfs:comment "FHP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fireHydrantTank> rdfs:comment "FHT" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#tank> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcTank> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#floatValve> rdfs:comment "FV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#floorCleanerScrubberDryer> rdfs:comment "FCSD" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cleaning> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#floorDuplexOutlet> rdfs:comment "FLRDX" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#outlet> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcOutlet> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#floorQuadOutlet> rdfs:comment "FLRQD" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#outlet> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcOutlet> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#flowControlValve> rdfs:comment "FCV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#flowMeter> rdfs:comment "FM" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#meter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFlowMeter> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#foodDehydrator> rdfs:comment "WSTFD" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#wasteManagement> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#foodEquipment> rdfs:comment "FOODEQ" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#freezer> rdfs:comment "FRZ" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#refrigeration> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#frostOrPreheatCoil> rdfs:comment "PHC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#coil> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCoil> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#frostProtectionSwitch> rdfs:comment "FPSW" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#actuator> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcActuator> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fryDump> rdfs:comment "CKFRYD" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fryer> rdfs:comment "CKFRY",
+        "FRY" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance>,
+        <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fuelOilDayTank> rdfs:comment "FODT" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#tank> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcTank> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fuelOilPump> rdfs:comment "FOP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fuelOilStorageTank> rdfs:comment "FOST" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#tank> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcTank> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fumeHoodExhaustFan> rdfs:comment "FHEX" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fan> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcDamper> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#furnace> rdfs:comment "FR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#burner> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcBurner> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#garage/CarParkSupplyFan> rdfs:comment "GSF" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fan> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFan> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#garage/CarParkTransferFan> rdfs:comment "GTF" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fan> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFan> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#gasDetectionPanel> rdfs:comment "GASDET" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#panel> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryControlElement> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#gasMeter> rdfs:comment "GM" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#meter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFlowMeter> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#gasRange> rdfs:comment "CKGRCK" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFlowTerminal> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#gasUnitHeater> rdfs:comment "GUH" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#heatEmitter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSpaceHeater> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#gasWokRange> rdfs:comment "CKGWR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFlowTerminal> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#gateValve> rdfs:comment "GV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#genericVendingMachine> rdfs:comment "VEND" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#glycolProtectorSensor> rdfs:comment "GLYPR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sensor> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSensor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#griddle> rdfs:comment "CKGRD" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#groundSourceHeatPump> rdfs:comment "GSHP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#heatPump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryEquipment> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#handWashBasin> rdfs:comment "HWB" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sanitaryTerminal> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSanitaryTerminal> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#hearthOven> rdfs:comment "CKHOVN" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#heatExchangerPump> rdfs:comment "HXP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#heatLamp> rdfs:comment "FSHL" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#foodServing> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSpaceHeater> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#heatMeter> rdfs:comment "HM" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#meter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFlowMeter> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#heatRecoveryUnit> rdfs:comment "HRU" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#ahu> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcAirToAirHeatRecovery> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#heater> rdfs:comment "HTR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#heatEmitter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSpaceHeater> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#heatingCoil> rdfs:comment "HC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#coil> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCoil> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#highTemperatureChilledWaterPump> rdfs:comment "HTCHP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#highTemperatureChiller> rdfs:comment "HTCH" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#chiller> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcChiller> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#highTemperatureCondenserWaterPump> rdfs:comment "HTCWP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#highVoltageSwitchboard> rdfs:comment "HVSB" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricDistribution> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricDistributionBoard> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#hoseReelTerminal> rdfs:comment "KHRL" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fireSuppression> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFireSuppressionTerminal> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#hotAndColdPlate> rdfs:comment "FSHCPL" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#foodServing> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFlowTerminal> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#hotAndColdWell> rdfs:comment "FSHCWL" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#foodServing> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFlowStorageDevice> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#hotPlate> rdfs:comment "FSHPL" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#foodServing> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFlowTerminal> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#hotWaterBeam> rdfs:comment "HTB" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#radiantSurface> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSpaceHeater> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#hotWaterCylinder> rdfs:comment "HWC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#tank> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcTank> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#hotWaterPump> rdfs:comment "HWP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#hotWaterValve> rdfs:comment "HWV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#hotWell> rdfs:comment "FSHWL" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#foodServing> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFlowStorageDevice> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#humiditySensor> rdfs:comment "HMS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sensor> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSensor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#hvacControlPanel> rdfs:comment "HVACCP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#panel> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryControlElement> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#hybridAirCoolerOrFluidCooler> rdfs:comment "HYAC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#chiller> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcEvaporativeCooler> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#hydronicTrenchConvector> rdfs:comment "TC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#heatEmitter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSpaceHeater> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#ice/Beverage> rdfs:comment "DISPIB" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#dispenser> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#iceCreamChestFreezer> rdfs:comment "FRZICC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#refrigeration> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#iceCreamDisplay> rdfs:comment "FSICD" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#foodServing> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#iceMaker> rdfs:comment "IM" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#refrigeration> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#iceWell> rdfs:comment "FSIWL" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#foodServing> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFlowStorageDevice> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#illuminatedExitSign> rdfs:comment "EXIT" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#lighting> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcLightFixture> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#impingerConveyorOven> rdfs:comment "CKICOV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#induction> rdfs:comment "CKIU" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#inductionRange> rdfs:comment "CKIRCK" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#inductionWarmer> rdfs:comment "FSIW" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#foodServing> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#inductionWok> rdfs:comment "CKIW" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#inletControlDamper> rdfs:comment "ICD" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#damper> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcDamper> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#inletIsolationDamper> rdfs:comment "IISD" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#damper> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcDamper> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#insectTrap> rdfs:comment "KICT" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#instantaneousWaterHeater> rdfs:comment "IWH" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#waterHeater> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#intermediateDistributionFrame> rdfs:comment "IDF" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#itcEquipment> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCommunicationsAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#iptvContentManagementSystemDevice> rdfs:comment "CMS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#avEquipment> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcAudioVisualAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#irrigationController> rdfs:comment "IRRC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#controller> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcController> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#isolationValve> rdfs:comment "ISV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#juice> rdfs:comment "DISPJ" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#dispenser> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#juicer> rdfs:comment "KJC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kettle> rdfs:comment "CKKET" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#keypad> rdfs:comment "KP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#userInterface> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSwitchingDevice> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenElectricDistributionPanel/Board> rdfs:comment "KDP",
+        "KPB" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricDistribution> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricDistributionBoard> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenExhaustFan> rdfs:comment "KEF" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fan> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFan> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenFireSupressionSystem> rdfs:comment "KFSS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fireSuppression> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcDistributionSystem> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#knockOutChute> rdfs:comment "BVKOC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#beverageMachine> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcWasteTerminal> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#leakDetectionPanel> rdfs:comment "LDP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#panel> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryControlElement> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#leakDetectionSensor> rdfs:comment "LDS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sensor> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSensor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#levelControlValve> rdfs:comment "LCV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#levelPowerElectronics> rdfs:comment "PVMLPE" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pvModul> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcController> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#lift/Elevator> rdfs:comment "ELV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#transportation> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcTransportElement> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#lift/ElevatorController> rdfs:comment "ELC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#transportation> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryControlElement> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#lift/ElevatorDoorMotor> rdfs:comment "ELDM" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#transportation> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricMotor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#lift/ElevatorInverter> rdfs:comment "ELI" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#transportation> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcTransformer> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#lift/ElevatorTractionMachine> rdfs:comment "ELTM" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#transportation> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricMotor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#lightingControlModule> rdfs:comment "LCM" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#lighting> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryControlElement> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#lightingControlPanel> rdfs:comment "LCP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#lighting> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryControlElement> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#lightingFixture> rdfs:comment "LT" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#lighting> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcLightFixture> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#lightingGateway> rdfs:comment "LTGW" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#lighting> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCommunicationsAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#lightingKeypad> rdfs:comment "LKP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#lighting> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSwitchingDevice> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#lightingMotionSensor> rdfs:comment "LMS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sensor> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSensor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#lightingMultisensor> rdfs:comment "LTMTS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sensor> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSensor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#lightingPhotocellSensor> rdfs:comment "LPS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sensor> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSensor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#linearElectricReceptacle> rdfs:comment "LER" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#outlet> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcOutlet> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#loadBank> rdfs:comment "LB" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricDistribution> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricFlowStorageDevice> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#locker> rdfs:comment "LCKR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#furniture> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFurniture> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#lowTemperatureChilledWaterPump> rdfs:comment "LTCHWP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#lowTemperatureChiller> rdfs:comment "LTCH" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#chiller> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcChiller> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#lowTemperatureCondenserWaterPump> rdfs:comment "LTCDWP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#lowTemperatureHotWaterPump> rdfs:comment "LTHWP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#lowVoltageSwitchboard> rdfs:comment "LVSB" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricDistribution> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricDistributionBoard> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#mainPanel/Board> rdfs:comment "MPNL" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricDistribution> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricDistributionBoard> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#mainsDistributionUnit> rdfs:comment "MDU" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricDistribution> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricDistributionBoard> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#mainsSwitchboard> rdfs:comment "MSB" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricDistribution> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricDistributionBoard> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#makeUpAirHandler> rdfs:comment "MAU" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#ahu> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryEquipment> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#makeUpWaterValve> rdfs:comment "MUV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#masterThermostaticValve> rdfs:comment "MMV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#meatBoneSaw> rdfs:comment "KMBS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#meatMincer> rdfs:comment "KMM" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#meatSlicer> rdfs:comment "KMS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#mechanicalDistributionPanel/Board> rdfs:comment "MDB",
+        "MDP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricDistribution> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricDistributionBoard> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#mediumVoltageSwitchboard> rdfs:comment "MVSB" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricDistribution> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricDistributionBoard> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#microwaveOven> rdfs:comment "CKMWO" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#milk> rdfs:comment "DISPMK" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#dispenser> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#mixer> rdfs:comment "KMIX" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#mobileCookStation> rdfs:comment "KMCS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#moistureContentSensor> rdfs:comment "MCS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sensor> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSensor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#motionSensor> rdfs:comment "MOS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sensor> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSensor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#motorControlCenter> rdfs:comment "MCC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#panel> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryControlElement> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#motorisedFireSmokeDamper> rdfs:comment "MFSD" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#damper> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcDamper> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#motorisedSmokeDamper> rdfs:comment "MSD" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#damper> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcDamper> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#motorizedWindowOperator> rdfs:comment "WDO" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#actuator> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcActuator> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#movingWalkway> rdfs:comment "AW" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#transportation> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcTransportElement> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#multiSensor> rdfs:comment "MTS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sensor> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSensor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#networkFirewall> rdfs:comment "FW" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#itcEquipment> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCommunicationsAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#networkRouter> rdfs:comment "RTR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#itcEquipment> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCommunicationsAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#networkedVideoRecorder> rdfs:comment "NVR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#avEquipment> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcAudioVisualAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#nitrogenDioxideSensor> rdfs:comment "NDS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sensor> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSensor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#oven> rdfs:comment "OVN" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#packagedPumpSet> rdfs:comment "PAPS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pacotizingMachine> rdfs:comment "KPM" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#panTiltZoomCamera> rdfs:comment "PTZCAM" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#camera> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcAudioVisualAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pastaCooker> rdfs:comment "CKPC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#peopleCountingSensor> rdfs:comment "PCS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sensor> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSensor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#plateHeatExchanger> rdfs:comment "PHX" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#heatExchanger> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcHeatExchanger> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pollutionControlUnit> rdfs:comment "PCU" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#filter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFilter> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#potable/DomesticWaterBoosterPump> rdfs:comment "DWBP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#potable/DomesticWaterStorageTank> rdfs:comment "DWST" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#tank> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcTank> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#potable/DomesticWaterTransferPump> rdfs:comment "DWTP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#potable/DomesticWaterTransferTank> rdfs:comment "DWTT" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#tank> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcTank> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#potatoOven> rdfs:comment "CKPOVN" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#potatoPeelingMachine> rdfs:comment "KPPM" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#powerDistributionUnit> rdfs:comment "PDU" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricDistribution> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricDistributionBoard> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#powerOverEthernetNetworkSwitch> rdfs:comment "POEETS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#itcEquipment> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCommunicationsAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pressureAttenuator> rdfs:comment "PA" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pressureBrattPan> rdfs:comment "CKPBP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pressureControlValve> rdfs:comment "PCV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pressureIndependentControlValve> rdfs:comment "PICV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pressureReducingValve> rdfs:comment "PRV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pressureReliefDampers> rdfs:comment "PRLD" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#damper> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcDamper> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pressureReliefValve> rdfs:comment "PRFV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pressureSensor> rdfs:comment "PS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sensor> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSensor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pressureSteamer> rdfs:comment "CKPSTE" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#primaryChilledWaterPump> rdfs:comment "PCHWP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#primaryPump> rdfs:comment "PP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#printingDevice> rdfs:comment "PRNTR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#communicationAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCommunicationsAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#processCoolingWaterPump> rdfs:comment "PCWP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#processFiltrationUnit> rdfs:comment "PFU" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#filter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryEquipment> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#processWaterPump> rdfs:comment "PWP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#processWaterValve> rdfs:comment "PWV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#programmableLogicController> rdfs:comment "PLC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#controller> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcController> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#radiantPanel> rdfs:comment "RP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#heatEmitter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#ifcSpaceHeater> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#raisedFloorBox> rdfs:comment "FLRB" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#outlet> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcOutlet> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#recirculationControlDamper> rdfs:comment "RECD" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#damper> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcDamper> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#recirculationPump> rdfs:comment "RCP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#recirculationValve> rdfs:comment "RCV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#recycledWaterPump> rdfs:comment "RWP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#refrigerator> rdfs:comment "REF" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#refrigeration> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#reheatCoil> rdfs:comment "RHC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#coil> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCoil> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#reliefFan> rdfs:comment "RLF" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fan> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFan> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#remoteI/OControlPanel> rdfs:comment "RIO" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#panel> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryControlElement> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#retarder/Proover> rdfs:comment "REFRP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#refrigeration> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#returnControlDamper> rdfs:comment "RTCD" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#damper> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcDamper> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#returnFan> rdfs:comment "RTF" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fan> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFan> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#returnIsolationDamper> rdfs:comment "RTISD" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#damper> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcDamper> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#returnValve> rdfs:comment "RTV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#reverseOsmosisSystem> rdfs:comment "RO" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#filter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFilter> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#rfidController> rdfs:comment "RFIDC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#accessControl> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcController> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#rfidReader> rdfs:comment "RFIDR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#accessControl> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCommunicationsAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#riceCooker> rdfs:comment "CKRC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#rollerTable> rdfs:comment "CDWRT" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#washingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFurniture> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#roofTopUnit> rdfs:comment "RTU" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#ahu> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryEquipment> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#room> rdfs:comment "ROOM" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#architecture> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSpace> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#rotisserie> rdfs:comment "CKROT" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFlowTerminal> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#runAroundCoil> rdfs:comment "RAC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#coil> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcAirToAirHeatRecovery> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#safetySwitchOrDisconnectSwitch> rdfs:comment "DSCTS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricSwitch> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSwitchingDevice> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#salamanderGrill> rdfs:comment "CKSGRL" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#scale> rdfs:comment "KFS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#scanningDevice> rdfs:comment "SCAN" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCommunicationsAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#secondaryChilledWaterPump> rdfs:comment "SCHWP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#secondaryHeatingCirculationPump> rdfs:comment "SHCP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#secondaryHotWaterCirculatingPump> rdfs:comment "SHWP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#secondaryPump> rdfs:comment "SP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sectionalizerSwitch> rdfs:comment "SCS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricSwitch> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSwitchingDevice> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#seismicGasValve> rdfs:comment "SGV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#separatorPump> rdfs:comment "SEPP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sewageEjectorPump> rdfs:comment "SEP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#shading/Blinds/DrapesDeviceActuator> rdfs:comment "SDACT" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#shading> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcActuator> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#shading/Blinds/DrapesDeviceKeypad> rdfs:comment "SDKP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#shading> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSwitchingDevice> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#shadingDeviceController> rdfs:comment "SDC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#controller> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcController> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sideStreamWaterFilters> rdfs:comment "SSFLT" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#filter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFilter> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#smokeDetector> rdfs:comment "SD" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sensor> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSensor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#smokeExhaustFan> rdfs:comment "SEF" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fan> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFan> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sneezeGuard> rdfs:comment "FSSG" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#foodServing> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFurniture> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#softServeIceCream> rdfs:comment "DISPIC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#dispenser> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#softwareDefinedNetworkingController> rdfs:comment "SDNC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#itcEquipment> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCommunicationsAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#soupWell> rdfs:comment "FSSWL" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#foodServing> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFlowStorageDevice> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#speaker> rdfs:comment "SPK" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#avEquipment> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcAudioVisualAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sprinklerHeadTerminal> rdfs:comment "SPH" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fireSuppression> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFireSuppressionTerminal> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sprinklerTank> rdfs:comment "SPT" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#tank> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcTank> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#stairwellPressurizationFan> rdfs:comment "SPF" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fan> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFan> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#staticPressureSensor> rdfs:comment "SPS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sensor> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSensor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#staticTransferSwitch> rdfs:comment "STS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricDistribution> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSwitchingDevice> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#steamBoiler> rdfs:comment "SB" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#burner> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcBoiler> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#steamPressureReducingValve> rdfs:comment "SPRV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#steamer> rdfs:comment "BVS",
+        "CKSTE",
+        "STE" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#beverageMachine>,
+        <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance>,
+        <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#stickBlender> rdfs:comment "KSBL" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#storageRack> rdfs:comment "KSR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFurniture> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sumpPump> rdfs:comment "SMPP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#supplyFan> rdfs:comment "SF" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fan> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFan> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#supplyValve> rdfs:comment "SPV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#switchActuator> rdfs:comment "SWACT" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#actuator> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcActuator> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#switchgear(12KvTyp)> rdfs:comment "SWGR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricDistribution> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricDistributionBoard> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#tandoorOven> rdfs:comment "CKTOVN" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#cookingAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#temperatureControlValve> rdfs:comment "TCV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#temperatureSensor> rdfs:comment "TPS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sensor> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSensor> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#thermalStorageTank> rdfs:comment "TST" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#tank> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcTank> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#thermostat> rdfs:comment "TSTAT" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#sensor> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryControlElement> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#thermostaticMixingValve> rdfs:comment "TMV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#toaster> rdfs:comment "KST",
+        "KTST" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#towerMakeUpPump> rdfs:comment "TMUP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#towerMakeUpValve> rdfs:comment "TMUV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#traceHeating> rdfs:comment "EHT" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#heatEmitter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#ifcSpaceHeater> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#transferFan> rdfs:comment "TF" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#fan> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFan> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#transferPump> rdfs:comment "TRP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#trenchHeaterAndCooler> rdfs:comment "TRHC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#heatEmitter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#ifcSpaceHeater> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#trenchHeating> rdfs:comment "TRH" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#heatEmitter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#ifcSpaceHeater> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#uninteruptablePowerSupplyUnit> rdfs:comment "UPS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#ups> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricFlowStorageDevice> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#unitHeater> rdfs:comment "UH" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#heatEmitter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcSpaceHeater> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#upsPanel/Board> rdfs:comment "UPSB" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricDistribution> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricDistributionBoard> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#uvKnifeSteralizer> rdfs:comment "KUVSC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#vacuumPackingMachine> rdfs:comment "KVPM" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#vacuumPump> rdfs:comment "VCP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#vacuumSystemFilter> rdfs:comment "VSFLT" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#filter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFilter> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#variableAirVolumeBox> rdfs:comment "VAV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#airTerminalBox> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcAirTerminalBox> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#variableAirVolumeControlStation/Panel> rdfs:comment "VAVCTR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#panel> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryControlElement> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#variableRefrigerantFlowUnit> rdfs:comment "VRF" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#dxSystem> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryEquipment> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#variableRefrigerantVolumeUnit> rdfs:comment "VRV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#dxSystem> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryEquipment> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#variableVolumeAndTemperatureBox> rdfs:comment "VVTB" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#airTerminalBox> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcAirTerminalBox> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#variableVolumeTerminalUnit> rdfs:comment "VVT" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#airTerminalBox> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcAirTerminalBox> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#vegCuttingMachine> rdfs:comment "KVCM" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#vegetableWasher> rdfs:comment "KVWM" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#vegetableWasherAndDryer> rdfs:comment "KVW" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#ventilatedCeiling> rdfs:comment "KVVC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenVentilation> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcAirTerminalBox> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#videoWall> rdfs:comment "VDW" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#avEquipment> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcAudioVisualAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#volumeControlDamper> rdfs:comment "VCD" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#damper> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcDamper> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#vsd(InverterDrive)> rdfs:comment "VSD" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#motorController> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcMotorConnection> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#warmDrawer> rdfs:comment "WDR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#electricAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#warmingDrawer> rdfs:comment "WDR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#kitchenAppliance> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#wasteBin> rdfs:comment "WSTBIN" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#wasteManagement> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFurniture> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#wasteCompactor> rdfs:comment "WSTC" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#wasteManagement> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#wasteWaterPump> rdfs:comment "WWP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcPump> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#water> rdfs:comment "DISPW" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#dispenser> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#waterBoiler> rdfs:comment "BVWB" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#beverageMachine> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcBoiler> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#waterConditioner> rdfs:comment "WCR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#filter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFilter> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#waterHammerArrestor> rdfs:comment "WHAV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#waterMeter> rdfs:comment "WM" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#meter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFlowMeter> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#waterReverseRinsingFilter> rdfs:comment "RRFLT" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#filter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFilter> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#waterSoftener> rdfs:comment "WSR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#filter> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcFilter> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#waterSolenoidValve> rdfs:comment "SNV" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#valve> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcValve> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#waterSourceHeatPump> rdfs:comment "WSHP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#heatPump> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryEquipment> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#waterSystemMakeupUnit> rdfs:comment "WMS" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#pressurisationUnit> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryEquipment> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#waterTank> rdfs:comment "TK" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#tank> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcTank> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#wetWasteGrinder> rdfs:comment "WSTWG" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#wasteManagement> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcElectricAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#whiteNoiseGenerator> rdfs:comment "WNG" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#avEquipment> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcAudioVisualAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#wiFiAntenna> rdfs:comment "WANT" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#antenna> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCommunicationsAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#wiFiRouter> rdfs:comment "WRTR" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#itcEquipment> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCommunicationsAppliance> .
+
+<https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#wirelessAccessPoint> rdfs:comment "WAP" ;
+    rdfs:subClassOf <https://raw.githubusercontent.com/Beaneebar/BDNS_RDF_conversion/main/BDNS/namespace#itcEquipment> ;
+    ns1:equivalentClass <http://ifcowl.openbimstandards.org/IFC4#IfcCommunicationsAppliance> .
+
