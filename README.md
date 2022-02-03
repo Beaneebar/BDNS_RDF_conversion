@@ -8,4 +8,4 @@ BDNS currently exits in the form of a CSV file that is maintained on Github thro
 
 In response to this need, this repo has been created to chart and manage the development of a conversion tool that enables BDNS to be easily converted into RDF.
 
-The design structure and methodology of this kit will be developed alongside the code. For future reference, please see [Design Structure and Methodology](https://github.com/Beaneebar/BDNS_RDF_conversion/blob/2879511e5007f868ade0ce104a4ffc4cd998a823/Design_Structure_and_Methodology.md). 
+The design structure and methodology of this kit will be developed alongside the code. For future reference, please see [Design Structure](https://github.com/Beaneebar/BDNS_RDF_conversion/blob/2879511e5007f868ade0ce104a4ffc4cd998a823/Design_Structure.md). 
