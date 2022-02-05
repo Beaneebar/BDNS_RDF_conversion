@@ -47,7 +47,6 @@ for x in BDNS[1:]:
     abbr = x[1]
     ifcTag = x[2]
     ifcType = x[3]
-    print(ifcTag)
 
     findParent = name.find("-") # searching for the character that marks the presence of a parent
     if name.find("-") != -1:
@@ -64,10 +63,10 @@ for x in BDNS[1:]:
 
         # adding parent and child classes to graph
         g_BDNS.add((parentClass_URI, RDF.type, RDFS.Class)) # adding parentClass triple
-            # Note: parentClasses exist for navigation purposes only, they do not have any instances
+            # Notepto: parentClasses exist for navigation purposes only, they do not have any instances
         g_BDNS.add((childClass_URI, RDFS.subClassOf, parentClass_URI)) # adding childClass triple
         g_BDNS.add((childClass_URI, RDFS.comment, Literal(abbr)))  # adding abbreviation as label
-        g_BDNS.add((childClass_URI, OWL.equivalentClass, IFC[ifcTag])) # adding IFC class equivalence
+        g_BDNS.add((childClass_URI, RDFS.seeAlso, IFC[ifcTag])) # adding IFC class equivalence
 
         # exception handling to add to dict
         try: # case where parentClass already exists
@@ -79,7 +78,7 @@ for x in BDNS[1:]:
         name_URI = URIRef(uriName) # conversting URI string to URIRef
         g_BDNS.add((name_URI, RDF.type, RDFS.Class)) # generating the triple
         g_BDNS.add((name_URI, RDFS.comment, Literal(abbr)))  # adding abbreviation as isDefinedBy
-        g_BDNS.add((name_URI, OWL.equivalentClass, IFC[ifcTag]))
+        g_BDNS.add((name_URI, RDFS.seeAlso, IFC[ifcTag]))
 
         # adding element to special array in dict - only for debugging.
         rdfClass["No Parent"].append([name, abbr, ifcTag, ifcType])
